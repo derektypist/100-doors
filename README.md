@@ -38,3 +38,29 @@ As a user, if I click on the Reset Button, I expect the information to be cleare
 
 The function `getFinalOpenedDoors(numDoors)` returns a Number Array, `numdoors` is a Number between 1 and 100.
 
+## Features
+
+Allows the user to enter the number of doors.  Performs checks to see if the input is valid.  On valid input, the number of doors as well as the final opened doors are displayed.  On invalid input, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/100-doors) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Rosetta Code](https://www.rosettacode.org)
+- [FreeCodeCamp](https://www.freecodecamp.org)
