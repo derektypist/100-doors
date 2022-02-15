@@ -16,3 +16,23 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+// Function to Get Final Opened Doors
+function getFinalOpenedDoors(numDoors) {
+    // Set Up Variables
+    let doors = [];
+    let i=1, ii=i*i;
+    // Loop Until numDoors is Reached
+    while (ii <= numDoors) {
+        doors.push(ii);
+        i++;
+        ii = i*i;
+    }
+    return doors;
+}
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("numinfo").innerHTML = txt;
+}
